@@ -1,0 +1,114 @@
+body {
+    background-color: black;
+    color: #01f701;
+    font-size: 13px;
+}
+#SecondDiv{
+    padding: 10px;
+    margin-left: 70px;
+    text-align: left;
+    margin: center;
+    align-items: center;
+}
+#SecondDiv input[type="radio"] {
+    accent-color: #01f701;
+    cursor : pointer;
+}
+
+#fbutton {
+    font-size: 16px;
+    background-color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border-radius: 17px;
+    text-align: left;
+    margin: 10px 350px 0 0; /* top, right, bottom, left */
+    transition: background-color 0.3ms;
+}
+#fbutton:hover{
+        background-color: #07a107;
+}
+#fbutton:active{
+    background-color:  #0a500a;
+}
+
+  h2 {
+  margin: auto;
+  text-align: center;
+  font-size: 19px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #00ff00; 
+  background-color: black;
+  padding: 10px;
+  border: none;
+}
+div#kss{
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+}
+
+#rda{
+    padding-top: 9px;
+    padding-left: 80px;
+    text-align: left;
+    font-size: 19px;
+    color: #01f701;
+}
+#rda input[type="radio"] {
+    accent-color: #01f701;
+    cursor : pointer;
+}
+#rda label {
+    text-align: left;
+    margin: auto;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #01f701;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+label {
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    font-size: 11px;
+}
+input {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #010201;
+    color: white;
+    background-color: #010201;
+    border: none;
+    padding: 5px;
+    outline: none;
+    font-size: 14px;
+    caret-color: #00ff00;
+}
+
+
+button {
+    background-color: #010201;
+    color: #01f701;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+}
+
+#wrongthing{
+    font-size: 18px;
+    display: flex;
+    margin-right: 300px;
+}
